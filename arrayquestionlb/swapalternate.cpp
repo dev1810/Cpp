@@ -10,7 +10,7 @@ int main()
 
    
     for(int i =0;i<n;i+=2){
-        if(i+1 < n){
+        if(i+1 < n){ //edgecase
             swap(arr[i],arr[i+1]);
         }
     }
